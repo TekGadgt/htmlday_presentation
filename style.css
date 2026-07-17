@@ -85,13 +85,3 @@
   align-items: center;
   justify-content: center;
 }
-
-/* Whimsy layer hook: polka-dot tile over the darkcyan frame (CSS-made, original) */
-body.whimsy .slidev-layout {
-  background-color: var(--htmlday-teal);
-  background-image:
-    radial-gradient(rgba(255, 255, 255, 0.25) 12%, transparent 13%),
-    radial-gradient(rgba(0, 0, 0, 0.15) 12%, transparent 13%);
-  background-size: 60px 60px;
-  background-position: 0 0, 30px 30px;
-}

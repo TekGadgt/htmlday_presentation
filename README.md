@@ -12,6 +12,5 @@ Saturday, August 8, 2026 · 10 AM to 2 PM · ECPI Main Campus, Virginia Beach.
 
 ## Notes
 
-- The 🪄 button (bottom right) toggles the whimsy layer. It's off by default.
 - The last slide is the resting slide; park there during the writing hour.
 - Before the event: scan every QR code from a phone against the projected screen.

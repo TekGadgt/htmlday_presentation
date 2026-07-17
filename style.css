@@ -1,0 +1,91 @@
+:root {
+  --htmlday-teal: darkcyan;
+  --htmlday-paper: #f9f9f9;
+  --htmlday-border: #ddd;
+}
+
+/* Raw 2003 look: darkcyan page, gray paper box, browser serif */
+.slidev-layout {
+  background: var(--htmlday-teal);
+  color: #111;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 3.5rem 4rem;
+}
+
+.slidev-layout::before {
+  content: '';
+  position: absolute;
+  inset: 1.6rem;
+  background: var(--htmlday-paper);
+  border: 1px solid var(--htmlday-border);
+  z-index: 0;
+}
+
+.slidev-layout > * {
+  position: relative;
+  z-index: 1;
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #111;
+}
+
+.slidev-layout a {
+  color: #0000ee;
+  border-bottom: none;
+  text-decoration: underline;
+}
+
+.slidev-layout code {
+  background: #eee;
+  border: 1px solid var(--htmlday-border);
+  border-radius: 0;
+  padding: 0.05em 0.3em;
+  color: #111;
+}
+
+.slidev-layout pre {
+  border: 1px solid var(--htmlday-border);
+  border-radius: 0;
+}
+
+.host-photo {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border: 1px solid var(--htmlday-border);
+  background: #fff;
+  padding: 4px;
+}
+
+.host-photo-sm {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border: 1px solid var(--htmlday-border);
+  background: #fff;
+  padding: 2px;
+}
+
+.qr-box {
+  background: #fff;
+  border: 1px solid var(--htmlday-border);
+  padding: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Whimsy layer hook: polka-dot tile over the darkcyan frame (CSS-made, original) */
+body.whimsy .slidev-layout {
+  background-color: var(--htmlday-teal);
+  background-image:
+    radial-gradient(rgba(255, 255, 255, 0.25) 12%, transparent 13%),
+    radial-gradient(rgba(0, 0, 0, 0.15) 12%, transparent 13%);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}

@@ -48,6 +48,12 @@
   color: #111;
 }
 
+.slidev-layout pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
 .slidev-layout pre {
   border: 1px solid var(--htmlday-border);
   border-radius: 0;

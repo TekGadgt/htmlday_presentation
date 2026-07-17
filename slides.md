@@ -284,41 +284,40 @@ import QrcodeVue from 'qrcode.vue'
 
 # Go write!
 
-<div class="flex justify-center gap-10 pt-4 items-start">
-  <div class="text-center">
-    <div class="flex justify-center gap-4">
-      <div class="text-center">
-        <img src="/photos/ag-webdev-cropped.jpeg" class="host-photo-sm mx-auto" />
-        <div class="pt-1 text-sm">Austin</div>
-      </div>
-      <div class="text-center">
-        <img src="/photos/chazona.jpg" class="host-photo-sm mx-auto" />
-        <div class="pt-1 text-sm">Chazona</div>
-      </div>
-      <div class="text-center">
-        <img src="/photos/IMG_3831.jpg" class="host-photo-sm mx-auto" />
-        <div class="pt-1 text-sm">Ryan</div>
-      </div>
+<div class="pt-2">
+  <div class="flex justify-center gap-6">
+    <div class="text-center">
+      <img src="/photos/ag-webdev-cropped.jpeg" class="host-photo-sm mx-auto" />
+      <div class="pt-1 text-sm">Austin</div>
     </div>
-    <div class="pt-2 text-base opacity-80">Stuck? Flag us down.</div>
+    <div class="text-center">
+      <img src="/photos/chazona.jpg" class="host-photo-sm mx-auto" />
+      <div class="pt-1 text-sm">Chazona</div>
+    </div>
+    <div class="text-center">
+      <img src="/photos/IMG_3831.jpg" class="host-photo-sm mx-auto" />
+      <div class="pt-1 text-sm">Ryan</div>
+    </div>
   </div>
-  <div class="flex gap-4">
-    <div class="text-center">
-      <div class="qr-box"><QrcodeVue value="https://www.val.town/x/templates/basic-html-starter" :size="90" level="H" /></div>
-      <div class="pt-1 text-sm">starter</div>
-    </div>
-    <div class="text-center">
-      <div class="qr-box"><QrcodeVue value="https://neocities.org" :size="90" level="H" /></div>
-      <div class="pt-1 text-sm">Neocities</div>
-    </div>
-    <div class="text-center">
-      <div class="qr-box"><QrcodeVue value="https://www.freecodecamp.org" :size="90" level="H" /></div>
-      <div class="pt-1 text-sm">freeCodeCamp</div>
-    </div>
+  <div class="pt-2 text-base opacity-80">Stuck? Flag us down.</div>
+</div>
+
+<div class="flex justify-center gap-6 pt-4">
+  <div class="text-center">
+    <div class="qr-box"><QrcodeVue value="https://www.val.town/x/templates/basic-html-starter" :size="90" level="H" /></div>
+    <div class="pt-1 text-sm">starter</div>
+  </div>
+  <div class="text-center">
+    <div class="qr-box"><QrcodeVue value="https://neocities.org" :size="90" level="H" /></div>
+    <div class="pt-1 text-sm">Neocities</div>
+  </div>
+  <div class="text-center">
+    <div class="qr-box"><QrcodeVue value="https://www.freecodecamp.org" :size="90" level="H" /></div>
+    <div class="pt-1 text-sm">freeCodeCamp</div>
   </div>
 </div>
 
-<div class="pt-8 text-sm opacity-70">
+<div class="pt-4 text-sm opacity-70">
   Space by ECPI · Coffee, pastries, and starter template by val.town
 </div>
 

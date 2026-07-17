@@ -33,7 +33,7 @@ public/photos/        # host photos
 Host photos:
 - Ryan: `IMG_3831.jpg` (copied from pantry party)
 - Austin: `ag-webdev-cropped.jpeg` (copied from pantry party)
-- Chazona: placeholder image with a TODO until she provides one
+- Chazona: `chazona.jpg` (provided, currently in project root; move to `public/photos/`)
 
 ### Whimsy toggle
 
@@ -72,7 +72,6 @@ State lives in a small composable so the toggle persists across slide navigation
 
 ## Error handling / risks
 
-- Chazona's photo is a placeholder; swap when received.
 - QR codes must be tested from a phone at presentation size before the event.
 - Whimsy layer must never obscure slide content; accents are positioned at edges.
 

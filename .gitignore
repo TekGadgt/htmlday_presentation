@@ -5,3 +5,5 @@ dist/
 .remote-assets/
 components.d.ts
 screenshots/
+handout.pdf
+handout-preview-*.png

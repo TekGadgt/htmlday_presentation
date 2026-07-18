@@ -9,6 +9,7 @@ Saturday, August 8, 2026 · 10 AM to 2 PM · ECPI Main Campus, Virginia Beach.
 - `npm run dev` · present locally
 - `npm run build` · static build in `dist/`
 - `npm run export` · PDF export
+- `npm run handout` · printable cheat sheet PDF (needs [typst](https://typst.app))
 
 ## Notes
 

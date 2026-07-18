@@ -12,9 +12,9 @@
 #set enum(tight: true)
 
 #show heading.where(level: 2): it => {
-  v(5pt, weak: true)
+  v(8pt, weak: true)
   text(fill: rgb("#008b8b"), size: 12.5pt, weight: "bold", it.body)
-  v(4pt, weak: true)
+  v(6pt, weak: true)
 }
 
 #show raw.where(block: true): it => block(
